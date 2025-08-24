@@ -1,0 +1,4 @@
+repo init -u https://github.com/Black-Iron-Project/manifest -b z16 --git-lfs --no-clone-bundle
+git clone https://github.com/Romeo13card/device_xiaomi_fog -b BLKI device/xiaomi/fog
+git clone https://github.com/alternoegraha/device_xiaomi_fog-kernel -b prebuilt device/xiaomi/fog-kernel
+git clone https://github.com/alternoegraha/vendor_xiaomi_fog -b fifteen-qpr2  vendor/xiaomi/fog
